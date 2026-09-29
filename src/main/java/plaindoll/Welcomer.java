@@ -14,10 +14,9 @@ public class Welcomer{
 	}
 	public String saySome(){
 		return "something in the way";
-	@Test
-	public void testHunterReply() {
-		String reply = welcomer.getHunterReply();
-		assertThat(reply, containsString("hunter"));
+	}
+	public String getHunterReply() {
+		return "The hunter is watching you!";
 	}
 }
 
